@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>document</title>
+</head>
+<link rel="stylesheet" href="">
+<body>
+
+  <h1>Cadastro de CEP</h1>
+
+  <form id="cepForm">
+    <label for="cep"></label>
+    <input type="text" id="cep" name="cep" placeholder="Digite o CEP" required>
+    <button type="submit">Buscar</button>
+  </form>
+
+  <div id="result">
+    <h2>Informações do CEP</h2>
+    <p><strong>CEP:</strong> <span id="cep"></span></p>
+    <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+    <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+    <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+  </div>
+  <script src="cep.js"></script>
+
+</body>
+</html>
